@@ -146,8 +146,8 @@ Return strict JSON: { "plan": [{ "date": "YYYY-MM-DD", "focus": "...", "tasks": 
 
 | | |
 |---|---|
-| ![Landing page](./screenshots/home.png) | ![Dashboard](./screenshots/dashboard.png) |
-| ![AI Tutor](./screenshots/tutor.png) | ![Quiz Generator](./screenshots/quiz.png) |
+| ![Landing page](screenshots\landing-page.jpg) | ![Dashboard](screenshots\dashboard.jpg) |
+| ![AI Tutor](screenshots\ai-tutor.jpg) | ![Quiz Generator](screenshots\quiz-generator.jpg) |
 
 **How to add these:** create a `screenshots/` folder in the repo root, take screenshots of your live app at `/`, `/dashboard`, `/tutor`, and `/quiz` (Win+Shift+S on Windows, save as `.png`), drop them into that folder with the filenames above, then `git add screenshots/ && git commit -m "add screenshots" && git push`. GitHub will render them automatically in this README.
 
