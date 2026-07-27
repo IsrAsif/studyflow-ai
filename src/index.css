@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* --- StudyFlow AI design tokens --- */
+  --color-paper: #F2F5EF;
+  --color-paper-dim: #E7ECE3;
+  --color-ink: #14213D;
+  --color-ink-soft: #3A4A6B;
+  --color-emerald: #1F7A5C;
+  --color-emerald-deep: #145940;
+  --color-amber: #F5A623;
+  --color-amber-soft: #FDE6B8;
+  --color-coral: #FF6B5B;
+
+  --font-display: 'Fraunces', serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+}
+
+.dark body {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+}
+
+::selection {
+  background-color: var(--color-amber-soft);
+  color: var(--color-ink);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
