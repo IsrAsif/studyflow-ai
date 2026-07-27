@@ -144,8 +144,8 @@ Return strict JSON: { "plan": [{ "date": "YYYY-MM-DD", "focus": "...", "tasks": 
 
 | | |
 |---|---|
-| ![Landing page](screenshots\landing-page.jpg) | ![Dashboard](screenshots\dashboard.jpg) |
-| ![AI Tutor](screenshots\ai-tutor.jpg) | ![Quiz Generator](screenshots\quiz-generator.jpg) |
+| ![Landing page](screenshots/landing-page.jpg) | ![Dashboard](screenshots/dashboard.jpg) |
+| ![AI Tutor](screenshots/ai-tutor.jpg) | ![Quiz Generator](screenshots/quiz-generator.jpg) |
 
 ## g. How to run the project locally
 
